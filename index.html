@@ -1,14 +1,22 @@
+<!DOCTYPE html>
 <html>
 
-<body>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sample Vuejs App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://unpkg.com/vue@2.5.17/dist/vue.js"></script>
-    
+
+</head>
+
+<body>
     <div id="app">
         <input type="text" v-on:input="changeTitle" />
         <p>{{ title }}</p>
     </div>
-
-    <script src="./index.js"></script>
+    
 </body>
+<script src="./index.js"></script>
 
 </html>
